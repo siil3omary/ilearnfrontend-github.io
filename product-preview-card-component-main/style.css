@@ -13,11 +13,13 @@ body{
     background-color: #f1f5f8;
 }
 .box{
-    margin: 300px auto;
+    margin:  auto auto auto auto;
     width: 700px;
     display: flex;
 }
 .left {
+    width: 50%;
+
     display: flex;
     justify-content:end;
     align-items: center;
@@ -29,20 +31,31 @@ body{
     border-radius: 10px 0 0 10px;
 }
 .right{
-background-color: hsl(158, 36%, 37%);
-    height: 475px;
+    width: 100%;
     width: 50%;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
     border-radius: 0 10px 10px 0;
+    background-color: hsl(0, 0%, 100%);
+
 }
-.parfum h1{
-    margin: 20px 0 0 0;
+.parfum {
+    color: #a09d9d;
+    margin: 40px 40px 40px 40px;
     font-size: 14px;
     font-family: 'Fraunces', serif;
 }
+.title{
+    margin: 0px 20px 0px 30px;
+
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+}
 .description{
+    margin: 0px 20px 0px 30px;
+
     font-size: 14px;
     color: #a09d9d;
-    margin-top: 10px;
+
     font-family: 'Montserrat';
 }
