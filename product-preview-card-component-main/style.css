@@ -69,6 +69,7 @@ body{
 }
 .newprice{
     margin: 20px 20px 0px 0px;
+    color :hsl(158, 36%, 37%);
     font-size: 40px;
     font-family: 'Fraunces', serif;
 }
